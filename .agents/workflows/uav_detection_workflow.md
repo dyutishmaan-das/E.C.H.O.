@@ -29,7 +29,8 @@ Responsible for: Building the user interface (web dashboard) for the defense ope
 
 ### Phase 2: Microcontroller Firmware (Team 1 & 2)
 1. **STM32 Blue Pill**: Write C++ code that includes the Edge Impulse library. The code will feed the model a hardcoded array of simulated drone data. When the ML model outputs a high confidence level for `Drone`, it triggers an alert over UART (Serial) to the ESP8266.
-2. **ESP8266/ESP-01**: Write C++ code to read the incoming UART messages from the STM32. Connect to the local Wi-Fi network and format the message as an MQTT payload or HTTP form POST.
+2. **ESP8266/ESP-01 Offline Storage (Store-and-Forward)**: Program the ESP to use its internal flash memory (LittleFS) or an SD Card module. If the Wi-Fi connection drops, it must locally log the drone detection timestamp and confidence level.
+3. **ESP8266/ESP-01 Online Sync & Email Alert**: When Wi-Fi reconnects, the ESP must read the offline logs, push the backlog to the cloud MQTT/HTTP server to sync the database, and trigger an automated Email Alert (using an SMTP library or Webhook).
 
 ### Phase 3: Cloud Infrastructure (Team 2)
 1. Set up an MQTT Broker (e.g., Mosquitto) or a REST API backend (e.g., Node.js Express).
