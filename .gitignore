@@ -1,0 +1,9 @@
+# Prevent massive datasets from being pushed to GitHub
+radar_dataset/
+radar_dataset_csv/
+*.csv
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
