@@ -7,3 +7,9 @@ radar_dataset_csv/
 # Python cache
 __pycache__/
 *.pyc
+
+# Text files
+key_ppoints.txt
+
+# Model Accuracy/Performance Tracking
+accu/
