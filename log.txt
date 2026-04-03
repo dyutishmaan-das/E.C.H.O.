@@ -1,0 +1,203 @@
+﻿commit 2befe6002b188f85897214dd5a269d41103ce7ab
+Author: Dyutishmaan Das <109868326+dyutishmaan-das@users.noreply.github.com>
+Date:   Wed Apr 1 21:32:12 2026 +0530
+
+    added the precision, recall and f1 score check
+
+M	ai_workflow/scripts/train_echo_ai.ipynb
+
+commit 6b01a46eb6ba84d9ea09015c63c185aff49a1d8b
+Author: Dyutishmaan Das <109868326+dyutishmaan-das@users.noreply.github.com>
+Date:   Wed Apr 1 11:50:48 2026 +0530
+
+    saving in more stable exe. in .h5
+
+M	ai_workflow/scripts/train_echo_ai.ipynb
+
+commit 7d7f5358e363dadfa287dc31c51bcc5839bda216
+Author: shaandyutish <dyutishmaan.das21@gmail.com>
+Date:   Tue Mar 31 14:14:06 2026 +0530
+
+    Final project updates: optimized AI model and Jupyter notebook
+
+M	.gitignore
+A	Screenshots/training_history1.png
+A	Screenshots/training_history2.png
+A	ai_workflow/exported_models/echo_model.h
+A	ai_workflow/exported_models/echo_model.tflite
+A	ai_workflow/exported_models/echo_model_jupyter.h
+A	ai_workflow/exported_models/training_history.png
+A	ai_workflow/exported_models/training_history_jupyter.png
+M	ai_workflow/scripts/train_echo_ai.ipynb
+A	split_dataset.py
+
+commit 511ac5e25b590313ed173126b600f4deb72d15da
+Author: shaandyutish <dyutishmaan.das21@gmail.com>
+Date:   Tue Mar 31 11:55:39 2026 +0530
+
+    Optimize AI architecture, add early stopping, and update .gitignore for project E.C.H.O
+
+A	ai_workflow/scripts/train_echo_ai.ipynb
+A	ai_workflow/scripts/train_echo_ai.py
+
+commit d2d617785262fc2ed055575c0d4b722b37b18c01
+Author: shaandyutish <dyutishmaan.das21@gmail.com>
+Date:   Sun Mar 29 18:32:59 2026 +0530
+
+    chore: Remove datasets from tracking to save Github storage
+
+A	.gitignore
+M	README.md
+D	radar_dataset/bird.00.csv
+D	radar_dataset/bird.01.csv
+D	radar_dataset/bird.02.csv
+D	radar_dataset/bird.03.csv
+D	radar_dataset/bird.04.csv
+D	radar_dataset/bird.05.csv
+D	radar_dataset/bird.06.csv
+D	radar_dataset/bird.07.csv
+D	radar_dataset/bird.08.csv
+D	radar_dataset/bird.09.csv
+D	radar_dataset/bird.10.csv
+D	radar_dataset/bird.11.csv
+D	radar_dataset/bird.12.csv
+D	radar_dataset/bird.13.csv
+D	radar_dataset/bird.14.csv
+D	radar_dataset/bird.15.csv
+D	radar_dataset/bird.16.csv
+D	radar_dataset/bird.17.csv
+D	radar_dataset/bird.18.csv
+D	radar_dataset/bird.19.csv
+D	radar_dataset/drone.00.csv
+D	radar_dataset/drone.01.csv
+D	radar_dataset/drone.02.csv
+D	radar_dataset/drone.03.csv
+D	radar_dataset/drone.04.csv
+D	radar_dataset/drone.05.csv
+D	radar_dataset/drone.06.csv
+D	radar_dataset/drone.07.csv
+D	radar_dataset/drone.08.csv
+D	radar_dataset/drone.09.csv
+D	radar_dataset/drone.10.csv
+D	radar_dataset/drone.11.csv
+D	radar_dataset/drone.12.csv
+D	radar_dataset/drone.13.csv
+D	radar_dataset/drone.14.csv
+D	radar_dataset/drone.15.csv
+D	radar_dataset/drone.16.csv
+D	radar_dataset/drone.17.csv
+D	radar_dataset/drone.18.csv
+D	radar_dataset/drone.19.csv
+D	radar_dataset/empty.00.csv
+D	radar_dataset/empty.01.csv
+D	radar_dataset/empty.02.csv
+D	radar_dataset/empty.03.csv
+D	radar_dataset/empty.04.csv
+D	radar_dataset/empty.05.csv
+D	radar_dataset/empty.06.csv
+D	radar_dataset/empty.07.csv
+D	radar_dataset/empty.08.csv
+D	radar_dataset/empty.09.csv
+D	radar_dataset/empty.10.csv
+D	radar_dataset/empty.11.csv
+D	radar_dataset/empty.12.csv
+D	radar_dataset/empty.13.csv
+D	radar_dataset/empty.14.csv
+D	radar_dataset/empty.15.csv
+D	radar_dataset/empty.16.csv
+D	radar_dataset/empty.17.csv
+D	radar_dataset/empty.18.csv
+D	radar_dataset/empty.19.csv
+
+commit fb25b38b53fe7c7ff49b57eba91103a4220aaef4
+Author: shaandyutish <dyutishmaan.das21@gmail.com>
+Date:   Sun Mar 29 10:04:58 2026 +0530
+
+    docs: Update architecture from STM32 to single-chip NodeMCU ESP8266 and add Offline Store-and_forward strategy
+
+M	.agents/workflows/uav_detection_workflow.md
+M	README.md
+A	Screenshots/1st_epoch_acc_check.png
+A	Screenshots/Screenshot 2026-03-28 200942.png
+A	Screenshots/Screenshot 2026-03-28 205854.png
+A	Screenshots/Screenshot 2026-03-28 205902.png
+A	Screenshots/Screenshot 2026-03-28 205921.png
+A	Screenshots/Spectral_features_features_gen.png
+A	Screenshots/Spectral_features_parameters.png
+
+commit 47e6dfa63b77ee5aee1fd3dae773f3a46421db60
+Author: shaandyutish <dyutishmaan.das21@gmail.com>
+Date:   Sat Mar 28 00:38:23 2026 +0530
+
+    docs: Add main repository README.md with project overview
+
+A	README.md
+
+commit a72e59bca2a8021691bc180fc74549e098a3f9ee
+Author: shaandyutish <dyutishmaan.das21@gmail.com>
+Date:   Sat Mar 28 00:36:01 2026 +0530
+
+    Initial commit for Project E.C.H.O. - Simulated radar dataset and team workflow
+
+A	.agents/workflows/uav_detection_workflow.md
+A	generate_radar_data.py
+A	radar_dataset/bird.00.csv
+A	radar_dataset/bird.01.csv
+A	radar_dataset/bird.02.csv
+A	radar_dataset/bird.03.csv
+A	radar_dataset/bird.04.csv
+A	radar_dataset/bird.05.csv
+A	radar_dataset/bird.06.csv
+A	radar_dataset/bird.07.csv
+A	radar_dataset/bird.08.csv
+A	radar_dataset/bird.09.csv
+A	radar_dataset/bird.10.csv
+A	radar_dataset/bird.11.csv
+A	radar_dataset/bird.12.csv
+A	radar_dataset/bird.13.csv
+A	radar_dataset/bird.14.csv
+A	radar_dataset/bird.15.csv
+A	radar_dataset/bird.16.csv
+A	radar_dataset/bird.17.csv
+A	radar_dataset/bird.18.csv
+A	radar_dataset/bird.19.csv
+A	radar_dataset/drone.00.csv
+A	radar_dataset/drone.01.csv
+A	radar_dataset/drone.02.csv
+A	radar_dataset/drone.03.csv
+A	radar_dataset/drone.04.csv
+A	radar_dataset/drone.05.csv
+A	radar_dataset/drone.06.csv
+A	radar_dataset/drone.07.csv
+A	radar_dataset/drone.08.csv
+A	radar_dataset/drone.09.csv
+A	radar_dataset/drone.10.csv
+A	radar_dataset/drone.11.csv
+A	radar_dataset/drone.12.csv
+A	radar_dataset/drone.13.csv
+A	radar_dataset/drone.14.csv
+A	radar_dataset/drone.15.csv
+A	radar_dataset/drone.16.csv
+A	radar_dataset/drone.17.csv
+A	radar_dataset/drone.18.csv
+A	radar_dataset/drone.19.csv
+A	radar_dataset/empty.00.csv
+A	radar_dataset/empty.01.csv
+A	radar_dataset/empty.02.csv
+A	radar_dataset/empty.03.csv
+A	radar_dataset/empty.04.csv
+A	radar_dataset/empty.05.csv
+A	radar_dataset/empty.06.csv
+A	radar_dataset/empty.07.csv
+A	radar_dataset/empty.08.csv
+A	radar_dataset/empty.09.csv
+A	radar_dataset/empty.10.csv
+A	radar_dataset/empty.11.csv
+A	radar_dataset/empty.12.csv
+A	radar_dataset/empty.13.csv
+A	radar_dataset/empty.14.csv
+A	radar_dataset/empty.15.csv
+A	radar_dataset/empty.16.csv
+A	radar_dataset/empty.17.csv
+A	radar_dataset/empty.18.csv
+A	radar_dataset/empty.19.csv

@@ -1,9 +1,0 @@
-              precision    recall  f1-score   support
-
-        Bird       0.70      0.53      0.61      3133
-       Drone       0.90      0.96      0.93     23505
-       Human       0.86      0.59      0.70      2398
-
-    accuracy                           0.88     29036
-   macro avg       0.82      0.69      0.74     29036
-weighted avg       0.88      0.88      0.88     29036
