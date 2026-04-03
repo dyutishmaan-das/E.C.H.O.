@@ -4,12 +4,15 @@ radar_dataset_csv/
 *.csv
 *.npy
 
+# Python Scripts & Notebooks (Security/Lightweight Repository)
+**/*.py
+.venv/
+.venv-wsl/
+.env
+
 # Python cache
 __pycache__/
 *.pyc
 
 # Text files
 key_ppoints.txt
-
-# Model Accuracy/Performance Tracking
-accu/
