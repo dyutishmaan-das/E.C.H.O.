@@ -1,6 +1,6 @@
 # PROJECT E.C.H.O. — System Architecture & Workflow
 
-> **E**lectronic **C**ounter **H**ostile **O**bservation  
+> **E**dge **C**omputing **H**ardware for **O**verhead-observation  
 > End-to-end system design document covering firmware, backend, frontend, and research.
 
 ---
