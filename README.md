@@ -1,5 +1,5 @@
 # Project E.C.H.O.
-*(Electronic Counter Hostile Observation)*
+*(Edge Computing Hardware for Overhead-observation)*
 
 ## Problem Statement
 Traditional perimeter defense systems struggle to identify small, rogue UAVs (drones) in poor visibility, often confusing them with biological clutter like birds. There is a critical need for a low-cost, decentralized edge-computing node that uses embedded Machine Learning (TinyML) on microcontrollers (NodeMCU ESP8266) to continuously scan radar frequencies, instantly distinguish the micro-Doppler signature of drone propellers from wildlife, and alert command centers in any weather condition.
@@ -32,7 +32,7 @@ For production-grade AI training, we use the open-source **"Radar measurements o
 ## 📁 Repository Structure
 *   `ai_workflow/scripts/train_echo_ai.py`: The custom Python pipeline that loads the Xenodo dataset, scales it for 24GHz hardware, builds the 1D-CNN, trains it, and exports it.
 *   `ai_workflow/exported_models/`: Contains the generated `.h5` model, the `.tflite` model, and the critical `echo_model.h` C-byte array.
-*   `ai_workflow/exported_models/node_echo_alert_firmware/`: The final Arduino IDE sketch containing the v6.0 firmware (AI Inference, IFF Wi-Fi Logic, LEDs, Buzzer, and JSON string generation).
+*   `ai_workflow/exported_models/node_echo_alert_firmware/`: The final Arduino IDE sketch containing the v6.2 firmware (AI Inference, IFF Wi-Fi Logic, LEDs, Buzzer, and JSON string generation).
 *   `echo_system_architecture.md`: Comprehensive breakdown of the frontend, backend, firmware, and MongoDB schemas. 
 
 ---
