@@ -46,3 +46,10 @@ For production-grade AI training, we use the open-source **"Radar measurements o
 ---
 
 *Watch the skies.*
+
+---
+
+## STM32 Setup Guide
+For full Blue Pill (`STM32F103C8`) installation and upload instructions (Preferences URL, Boards Manager install, `Tools` selections, FTDI bootloader flash, USB upload flow, and troubleshooting), see:
+
+- [STM32_BLUEPILL_SETUP.md](STM32_BLUEPILL_SETUP.md)
